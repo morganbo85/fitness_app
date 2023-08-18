@@ -2,7 +2,7 @@
 
 Super simple fitness log.
 
-Enter Excersie, sets, reps, and weights into GUI and then information is entered into a Excel file.
+Enter the Workout name, sets, reps, and weight into GUI and then the information is entered into an Excel file.
 
 It will create the file if it's not already preset or append the file if it is.
 
