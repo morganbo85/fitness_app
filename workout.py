@@ -1,5 +1,8 @@
+# 8/18/2023
+# Bo Morgan
+
 import tkinter as tk
-from tkinter import messagebox
+from tkinter import messagebox, filedialog
 import openpyxl
 from openpyxl import Workbook
 from openpyxl.utils import get_column_letter
@@ -7,7 +10,7 @@ from openpyxl.styles import Alignment
 import os.path
 
 # Check if the Excel file exists, if not, create a new one
-excel_filename = "workout_log.xlsx"
+excel_filename = "C:/test/workout_log.xlsx" # Will need to change path
 if not os.path.exists(excel_filename):
     workbook = Workbook()
     worksheet = workbook.active
